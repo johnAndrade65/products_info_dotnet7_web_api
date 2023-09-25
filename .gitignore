@@ -1,0 +1,37 @@
+# Arquivos de compilação e saída
+bin/
+obj/
+
+# Arquivos específicos de .NET
+*.suo
+*.user
+*.sln.docstates
+
+# Arquivos de dependências gerados pelo NuGet
+packages/
+
+# Arquivo .env para configuração de variáveis de ambiente
+.env
+
+# Arquivos de log (se aplicável)
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Diretório de saída do Visual Studio (se aplicável)
+.vscode/
+
+# Arquivos de configuração do Rider (se aplicável)
+.idea/
+*.sln.iml
+
+# Arquivos de configuração de projetos e soluções
+*.xproj
+*.csproj.user
+
+# Arquivos de cache de teste (se aplicável)
+TestResults/
+
+# Arquivos de configuração do ambiente (se aplicável)
+appsettings*.json
