@@ -11,8 +11,8 @@ using ProductsInfo;
 namespace ProductsInfo.Migrations
 {
     [DbContext(typeof(ProductsDbContext))]
-    [Migration("20230923174922_InfoProductsMigration")]
-    partial class InfoProductsMigration
+    [Migration("20230928181001_InfoProductsMigrations")]
+    partial class InfoProductsMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -67,7 +67,7 @@ namespace ProductsInfo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("InfoProducts");
+                    b.ToTable("InfoProducts", (string)null);
                 });
 #pragma warning restore 612, 618
         }

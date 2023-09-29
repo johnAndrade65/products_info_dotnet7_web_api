@@ -64,7 +64,7 @@ namespace ProductsInfo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("InfoProducts");
+                    b.ToTable("InfoProducts", (string)null);
                 });
 #pragma warning restore 612, 618
         }

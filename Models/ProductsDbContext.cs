@@ -10,4 +10,12 @@ public class ProductsDbContext : DbContext
 
     public ProductsDbContext(DbContextOptions<ProductsDbContext> options)
         : base(options) { }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        //Mapeamento explícito da tabela InfoProducts para a entidade InfoProducts.
+        modelBuilder.Entity<InfoProducts>().ToTable("InfoProducts");
+
+        base.OnModelCreating(modelBuilder);
+    }
 }

@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProductsInfo;
 
+[Table("InfoProducts")]
 public class InfoProducts
 {
     [Key]//Indica que a propriedade é a chave primária

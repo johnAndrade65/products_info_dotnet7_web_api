@@ -5,7 +5,7 @@
 namespace ProductsInfo.Migrations
 {
     /// <inheritdoc />
-    public partial class InfoProductsMigration : Migration
+    public partial class InfoProductsMigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
